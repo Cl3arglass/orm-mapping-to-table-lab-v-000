@@ -16,8 +16,8 @@ class Student
     id INTEGER PRIMARY KEY,
     name TEXT,
     album TEXT
-    )""
-    SQL
+    )
+    SQL"
   DB[:conn].execute(sql)
  end
 end
